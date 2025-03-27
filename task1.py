@@ -31,5 +31,5 @@ def total_salary(path):
         return 0, 0
 # Приклад використання функції:
 if __name__ == "__main__":
-    total, average = total_salary("salary_file.txt")
+    total, average = total_salary("/Users/halynalekhnovska/Documents/Study/Pyton/goit-pycore-hw-04/salary_file.txt")
     print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
